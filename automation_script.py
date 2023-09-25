@@ -468,7 +468,7 @@ def automatization_second_web_site(dict_credentials, stop_event):
                 steep = 'click on new message'
                 time.sleep(1.2)
                 # debug("finish click on start message")
-                send_message(message, send_message = False)
+                send_message(message, send_message = True)
                 time.sleep(1.5)
                 steep = 'msg sent'
                 
